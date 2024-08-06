@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.7 on win32)" generated="20240806 14:33:33.243" rpa="false" schemaversion="4">
+<suite id="s1" name="Web Tests" source="C:\QA\fx-gui\tests\web_tests.robot">
+<kw name="Open Browser" library="browser_setup" type="SETUP">
+<kw name="New Page" library="Browser">
+<arg>http://10.78.185.36</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20240806 14:33:37.306" level="INFO">Successfully initialized new page object and opened url: http://10.78.185.36</msg>
+<msg timestamp="20240806 14:33:37.306" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<status status="PASS" starttime="20240806 14:33:34.638" endtime="20240806 14:33:37.306"/>
+</kw>
+<status status="PASS" starttime="20240806 14:33:34.637" endtime="20240806 14:33:37.307"/>
+</kw>
+<test id="s1-t1" name="Test Example Page Title" line="8">
+<kw name="Open Browser To Application" library="keywords">
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20240806 14:33:37.886" level="INFO">Successfully initialized new page object and opened url: https://example.com</msg>
+<status status="PASS" starttime="20240806 14:33:37.320" endtime="20240806 14:33:37.886"/>
+</kw>
+<kw name="Set Viewport Size" library="Browser">
+<arg>1920</arg>
+<arg>1080</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<msg timestamp="20240806 14:33:37.961" level="INFO">Set viewport size to: [object Object]</msg>
+<status status="PASS" starttime="20240806 14:33:37.886" endtime="20240806 14:33:37.961"/>
+</kw>
+<status status="PASS" starttime="20240806 14:33:37.320" endtime="20240806 14:33:37.961"/>
+</kw>
+<kw name="Get Title" library="Browser">
+<arg>Example Domain</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<msg timestamp="20240806 14:33:37.964" level="FAIL">ValueError: Argument 'assertion_operator' got value 'Example Domain' that cannot be converted to AssertionOperator or None.</msg>
+<status status="FAIL" starttime="20240806 14:33:37.962" endtime="20240806 14:33:37.964"/>
+</kw>
+<doc>This test case verifies the title of the example page.</doc>
+<status status="FAIL" starttime="20240806 14:33:37.307" endtime="20240806 14:33:37.964">ValueError: Argument 'assertion_operator' got value 'Example Domain' that cannot be converted to AssertionOperator or None.</status>
+</test>
+<test id="s1-t2" name="Test Example Page Content" line="13">
+<kw name="Open Browser To Application" library="keywords">
+<kw name="New Page" library="Browser">
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20240806 14:33:38.181" level="INFO">Successfully initialized new page object and opened url: https://example.com</msg>
+<status status="PASS" starttime="20240806 14:33:38.038" endtime="20240806 14:33:38.182"/>
+</kw>
+<kw name="Set Viewport Size" library="Browser">
+<arg>1920</arg>
+<arg>1080</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<msg timestamp="20240806 14:33:38.201" level="INFO">Set viewport size to: [object Object]</msg>
+<status status="PASS" starttime="20240806 14:33:38.182" endtime="20240806 14:33:38.201"/>
+</kw>
+<status status="PASS" starttime="20240806 14:33:38.037" endtime="20240806 14:33:38.201"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>xpath=//h1</arg>
+<arg>Example Domain</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<msg timestamp="20240806 14:33:38.203" level="FAIL">ValueError: Argument 'assertion_operator' got value 'Example Domain' that cannot be converted to AssertionOperator or None.</msg>
+<status status="FAIL" starttime="20240806 14:33:38.202" endtime="20240806 14:33:38.203"/>
+</kw>
+<doc>This test case verifies the content of the example page.</doc>
+<status status="FAIL" starttime="20240806 14:33:38.028" endtime="20240806 14:33:38.203">ValueError: Argument 'assertion_operator' got value 'Example Domain' that cannot be converted to AssertionOperator or None.</status>
+</test>
+<kw name="Close Browser" library="browser_setup" type="TEARDOWN">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<kw name="Close Browser" library="browser_setup">
+<msg timestamp="20240806 14:33:38.324" level="FAIL">Maximum limit of started keywords and control structures exceeded.</msg>
+<status status="FAIL" starttime="20240806 14:33:38.324" endtime="20240806 14:33:38.324"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.324" endtime="20240806 14:33:38.325"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.324" endtime="20240806 14:33:38.325"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.323" endtime="20240806 14:33:38.325"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.323" endtime="20240806 14:33:38.325"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.323" endtime="20240806 14:33:38.325"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.323" endtime="20240806 14:33:38.326"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.323" endtime="20240806 14:33:38.326"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.322" endtime="20240806 14:33:38.326"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.322" endtime="20240806 14:33:38.327"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.322" endtime="20240806 14:33:38.327"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.321" endtime="20240806 14:33:38.327"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.321" endtime="20240806 14:33:38.327"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.321" endtime="20240806 14:33:38.327"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.321" endtime="20240806 14:33:38.328"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.321" endtime="20240806 14:33:38.328"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.320" endtime="20240806 14:33:38.328"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.320" endtime="20240806 14:33:38.328"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.320" endtime="20240806 14:33:38.328"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.298" endtime="20240806 14:33:38.329"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.298" endtime="20240806 14:33:38.329"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.298" endtime="20240806 14:33:38.329"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.298" endtime="20240806 14:33:38.329"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.297" endtime="20240806 14:33:38.330"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.297" endtime="20240806 14:33:38.330"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.297" endtime="20240806 14:33:38.330"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.297" endtime="20240806 14:33:38.331"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.296" endtime="20240806 14:33:38.331"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.296" endtime="20240806 14:33:38.332"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.296" endtime="20240806 14:33:38.332"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.296" endtime="20240806 14:33:38.332"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.295" endtime="20240806 14:33:38.332"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.295" endtime="20240806 14:33:38.332"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.295" endtime="20240806 14:33:38.333"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.294" endtime="20240806 14:33:38.333"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.294" endtime="20240806 14:33:38.333"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.293" endtime="20240806 14:33:38.333"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.292" endtime="20240806 14:33:38.333"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.292" endtime="20240806 14:33:38.334"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.292" endtime="20240806 14:33:38.334"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.291" endtime="20240806 14:33:38.334"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.291" endtime="20240806 14:33:38.334"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.291" endtime="20240806 14:33:38.334"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.290" endtime="20240806 14:33:38.335"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.290" endtime="20240806 14:33:38.335"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.290" endtime="20240806 14:33:38.335"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.290" endtime="20240806 14:33:38.335"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.289" endtime="20240806 14:33:38.335"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.289" endtime="20240806 14:33:38.335"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.289" endtime="20240806 14:33:38.336"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.288" endtime="20240806 14:33:38.336"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.287" endtime="20240806 14:33:38.336"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.287" endtime="20240806 14:33:38.336"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.287" endtime="20240806 14:33:38.336"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.287" endtime="20240806 14:33:38.336"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.286" endtime="20240806 14:33:38.337"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.286" endtime="20240806 14:33:38.337"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.285" endtime="20240806 14:33:38.337"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.285" endtime="20240806 14:33:38.337"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.285" endtime="20240806 14:33:38.337"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.285" endtime="20240806 14:33:38.338"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.284" endtime="20240806 14:33:38.338"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.284" endtime="20240806 14:33:38.338"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.284" endtime="20240806 14:33:38.338"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.284" endtime="20240806 14:33:38.338"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.283" endtime="20240806 14:33:38.339"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.283" endtime="20240806 14:33:38.339"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.282" endtime="20240806 14:33:38.339"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.282" endtime="20240806 14:33:38.339"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.282" endtime="20240806 14:33:38.339"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.282" endtime="20240806 14:33:38.340"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.281" endtime="20240806 14:33:38.340"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.281" endtime="20240806 14:33:38.340"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.281" endtime="20240806 14:33:38.340"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.281" endtime="20240806 14:33:38.341"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.280" endtime="20240806 14:33:38.341"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.280" endtime="20240806 14:33:38.341"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.280" endtime="20240806 14:33:38.341"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.280" endtime="20240806 14:33:38.341"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.280" endtime="20240806 14:33:38.341"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.279" endtime="20240806 14:33:38.342"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.279" endtime="20240806 14:33:38.342"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.279" endtime="20240806 14:33:38.342"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.279" endtime="20240806 14:33:38.342"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.278" endtime="20240806 14:33:38.342"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.278" endtime="20240806 14:33:38.342"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.278" endtime="20240806 14:33:38.343"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.278" endtime="20240806 14:33:38.343"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.278" endtime="20240806 14:33:38.343"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.277" endtime="20240806 14:33:38.343"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.277" endtime="20240806 14:33:38.343"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.277" endtime="20240806 14:33:38.343"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.277" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.276" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.276" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.275" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.275" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.275" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.274" endtime="20240806 14:33:38.344"/>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:38.273" endtime="20240806 14:33:38.345">Maximum limit of started keywords and control structures exceeded.</status>
+</kw>
+<status status="FAIL" starttime="20240806 14:33:33.245" endtime="20240806 14:33:38.345">Suite teardown failed:
+Maximum limit of started keywords and control structures exceeded.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Web Tests">Web Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

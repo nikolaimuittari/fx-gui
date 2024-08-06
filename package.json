@@ -1,0 +1,22 @@
+{
+  "name": "fx-gui",
+  "version": "1.0.0",
+  "description": "FX GUI tests",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaimuittari/fx-gui-3.git"
+  },
+  "author": "NM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaimuittari/fx-gui-3/issues"
+  },
+  "homepage": "https://github.com/nikolaimuittari/fx-gui-3#readme"
+}
