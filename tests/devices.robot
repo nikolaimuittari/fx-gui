@@ -1,14 +1,14 @@
 *** Settings ***
-Resource        ${RESOURCES}/logs.resource
-Resource        ${RESOURCES}/login.resource
-Resource        ${RESOURCES}/navigate.resource
-Resource        ${RESOURCES}/point_locators.resource
-Resource        ${RESOURCES}/device_locators.resource
-Resource        ${RESOURCES}/modules_id.resource
-Resource        ${RESOURCES}/modbus_id.resource
-Resource        ${RESOURCES}/freeze_id.resource
-Resource        ${RESOURCES}/calendar_id.resource
-Resource        ${RESOURCES}/settings_id.resource
+Resource        ../resources/logs.resource
+Resource        ../resources/login.resource
+Resource        ../resources/navigate.resource
+Resource        ../resources/point_locators.resource
+Resource        ../resources/device_locators.resource
+Resource        ../resources/modules_id.resource
+Resource        ../resources/modbus_id.resource
+Resource        ../resources/freeze_id.resource
+Resource        ../resources/calendar_id.resource
+Resource        ../resources/settings_id.resource
 Library         Browser
 
 Test Setup      Go to main view

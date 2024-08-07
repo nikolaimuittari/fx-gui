@@ -4,8 +4,8 @@
 
 
 *** Settings ***
-Resource        ${RESOURCES}/navigate.resource
-Resource        ${RESOURCES}/backup.resource
+Resource        ../resources/navigate.resource
+Resource        ../resources/backup.resource
 Library         Browser
 
 Test Setup      Go to main view

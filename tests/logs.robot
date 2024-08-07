@@ -1,6 +1,6 @@
 *** Settings ***
-Resource        ${RESOURCES}/logs.resource
-Resource        ${RESOURCES}/navigate.resource
+Resource        ../resources/logs.resource
+Resource        ../resources/navigate.resource
 Library         Browser
 
 Test Setup      Go to main view

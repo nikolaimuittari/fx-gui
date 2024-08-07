@@ -1,0 +1,28 @@
+{"level":30,"time":"2024-08-06T12:07:24.215Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Listening on 52569"}
+{"level":30,"time":"2024-08-06T12:07:24.708Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:24.709Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:24.738Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-08-06T12:07:26.222Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-08-06T12:07:26.239Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-08-06T12:07:26.239Z","pid":28432,"hostname":"LT-PW014SWR","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-08-06T12:07:26.239Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Trace file: "}
+{"level":30,"time":"2024-08-06T12:07:26.267Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Changed active context"}
+{"level":30,"time":"2024-08-06T12:07:26.268Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method newContext"}
+{"level":30,"time":"2024-08-06T12:07:26.358Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.360Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.368Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.369Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.377Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Changed active context"}
+{"level":30,"time":"2024-08-06T12:07:26.382Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.383Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.389Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-06T12:07:26.390Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-06T12:07:26.394Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-08-06T12:07:26.395Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-08-06T12:07:26.408Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.408Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-08-06T12:07:26.414Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Changed active context"}
+{"level":30,"time":"2024-08-06T12:07:26.417Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-08-06T12:07:26.432Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-08-06T12:07:29.407Z","pid":28432,"hostname":"LT-PW014SWR","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-08-06T12:07:29.518Z","pid":28432,"hostname":"LT-PW014SWR","msg":"End of node method closeAllBrowsers"}

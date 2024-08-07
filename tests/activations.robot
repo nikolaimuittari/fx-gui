@@ -4,8 +4,7 @@
 
 
 *** Settings ***
-Resource        ${RESOURCES}/activations.resource
-Resource        ${RESOURCES}/navigate.resource
+Resource        ../resources/navigate.resource
 Resource        ../resources/activations.resource
 Library         Browser
 Library         RPA.Desktop

@@ -1,7 +1,7 @@
 *** Settings ***
-Resource        ${RESOURCES}/history.resource
-Resource        ${RESOURCES}/navigate.resource
-Resource        ${RESOURCES}/ai_point_id.resource
+Resource        ../resources/history.resource
+Resource        ../resources/navigate.resource
+Resource        ../resources/ai_point_id.resource
 Library         Browser
 
 Test Setup      Go to main view

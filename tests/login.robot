@@ -1,7 +1,7 @@
 *** Settings ***
-Resource    ${RESOURCES}/env.resource
-Resource    ${RESOURCES}/login.resource
-Resource    ${RESOURCES}/navigate.resource
+Resource    ../resources/env.resource
+Resource    ../resources/login.resource
+Resource    ../resources/navigate.resource
 Library     Browser
 
 

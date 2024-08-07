@@ -1,0 +1,26 @@
+{
+    "explorer.compactFolders": false,
+
+    // Reduces editor noise
+    "robot.variables": {
+        "RESOURCES": "${workspaceFolder}/robots/resources",
+    },
+    "robot.interactiveConsole.arguments":[
+      "--output", "${workspaceFolder}/robots/results/interactive_console_output.xml"
+    ],
+    "robot.python.executable": "${workspaceFolder}/robots/.venv/bin/python",
+    "robot.language-server.python": "c:\\Python312\\python.exe",
+    "python.testing.pytestArgs": [
+      "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [
+      "c:/QA/fx-gui/."
+    ],
+    "python.terminal.activateEnvironment": false,
+    "editor.rulers": [
+      100
+    ],
+    "git.ignoreLimitWarning": true,
+}

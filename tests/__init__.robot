@@ -18,8 +18,11 @@ Suite setup
     New Browser
     ...    browser=chromium
     ...    headless=false
-    ...    slowMo=100ms
-    New Context    viewport={'width': 1920, 'height': 1000}    screen={'width': 1600, 'height': 900}
+    ...    slowMo=300ms
+    New Context    
+    ...    viewport={'width': 1920, 'height': 1000}    
+    ...    screen={'width': 1600, 'height': 900}
+    ...    deviceScaleFactor=0.8
     # New Context    viewport={'width': 1920, 'height': 1000}    deviceScaleFactor=0.5    # screen={'width': 1900, 'height': 896}
     # New Browser    chromium    headless=false
     # desktop
@@ -33,10 +36,10 @@ Suite setup
     Populate environment
 
 Populate environment
-    Set Global Variable    ${RESOURCES}    ${CURDIR}/../resources
+    Set Global Variable    ${RESOURCES}    ${CURDIR}\\resources
 
-    Log To Console    Setting global variables from ${target_config}
-    ${items}=    Get Variables From File    ${CURDIR}/../../${target_config}
+    Log To Console    Setting global variables from ${CURDIR}\\${target_config}
+    ${items}=    Get Variables From File    ${CURDIR}\\${target_config}
     FOR    ${key}    ${value}    IN    &{items}
         Set Global Variable    ${${key}}    ${value}
         Log To Console    ${key} = ${value}

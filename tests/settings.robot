@@ -1,9 +1,9 @@
 *** Settings ***
-Resource        ${RESOURCES}/settings.resource
-Resource        ${RESOURCES}/settings_2.resource
-Resource        ${RESOURCES}/settings_id.resource
-Resource        ${RESOURCES}/settings_id_2.resource
-Resource        ${RESOURCES}/navigate.resource
+Resource        ../resources/settings.resource
+Resource        ../resources/settings_2.resource
+Resource        ../resources/settings_id.resource
+Resource        ../resources/settings_id_2.resource
+Resource        ../resources/navigate.resource
 Library         RPA.Browser.Selenium
 Library         SeleniumLibrary
 

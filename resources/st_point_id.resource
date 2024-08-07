@@ -113,8 +113,8 @@ Delete ST Point
         Browser.Click    ${SELECTOR_AUTOMATION_POINT_CELL_COPY_BUTTON}
     END
 
-    Wait For Elements State    ${compiled_text}    visible    timeout=2s
-    Browser.Click    ${compiled_text}
+    # Wait For Elements State    ${compiled_text}    visible    timeout=2s
+    # Browser.Click    ${compiled_text}
 
     Wait For Elements State    ${SELECTOR_AUTOMATION_TOOLBAR_DELETE_BUTTON}    visible    timeout=2s
     Browser.Click    ${SELECTOR_AUTOMATION_TOOLBAR_DELETE_BUTTON}
