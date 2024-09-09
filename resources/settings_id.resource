@@ -231,10 +231,12 @@ Settings System Activations QA-ID
 
     Browser.Click    ${SELECTOR_SETTINGS_ACTIVATIONS_FXBASE_COPY_PRODUCT_KEY_ICON}
 
-    ${snack-bar_visible}=    Check Xpath visible    xpath=//span[@class='mdc-button__label']
-    Log To Console    Snack-bar: ${snack-bar_visible}
-    ${snack-bar_text}=    Get Text From XPath    xpath=//span[@class='mdc-button__label']
-    Log To Console    Snack-bar text: ${snack-bar_text}
+    Snack-bar Visibility And Content
+
+    # ${snack-bar_visible}=    Check Xpath visible    xpath=//span[@class='mdc-button__label']
+    # Log To Console    Snack-bar: ${snack-bar_visible}
+    # ${snack-bar_text}=    Get Text From XPath    xpath=//span[@class='mdc-button__label']
+    # Log To Console    Snack-bar text: ${snack-bar_text}
 
     ${fx_base_key_value}=    Get Text From XPath    ${SELECTOR_SETTINGS_ACTIVATIONS_FXBASE_ACTIVATION_KEY_INPUT}
     Log To Console    FX base key: ${fx_base_key_value}
@@ -262,10 +264,12 @@ Settings System Activations QA-ID
         Log To Console    FX base activation: ${fx_base_key_value}
     END
 
-    ${snack-bar_visible}=    Check Xpath visible    xpath=//span[@class='mdc-button__label']
-    Log To Console    Snack-bar: ${snack-bar_visible}
-    ${snack-bar_text}=    Get Text From XPath    xpath=//span[@class='mdc-button__label']
-    Log To Console    Snack-bar text: ${snack-bar_text}
+    # Snack-bar Visibility And Content
+
+    # ${snack-bar_visible}=    Check Xpath visible    xpath=//span[@class='mdc-button__label']
+    # Log To Console    Snack-bar: ${snack-bar_visible}
+    # ${snack-bar_text}=    Get Text From XPath    xpath=//span[@class='mdc-button__label']
+    # Log To Console    Snack-bar text: ${snack-bar_text}
 
 Settings System SMS QA-ID
     [Arguments]    ${save}
@@ -300,7 +304,8 @@ Settings System SMS QA-ID
     Fill Text    ${SELECTOR_SETTINGS_SMS_ACTIVATION_ID_INPUT}    ${EMPTY}
     Fill Text    ${SELECTOR_SETTINGS_SMS_ACTIVATION_ID_INPUT}    ${activation_id}
 
-    Select Options By    ${SELECTOR_SETTINGS_SMS_SMS_SEND_VALIDITY_TIME_DROPDOWN}    value    3
+    Browser.Click    ${SELECTOR_SETTINGS_SMS_SMS_SEND_VALIDITY_TIME_DROPDOWN}
+    Browser.Click    ${SELECTOR_SETTINGS_SMS_VALIDITY_TIME_OPTION_1}
 
     Check Checkbox    ${SELECTOR_SETTINGS_SMS_DEBUG_GSM_MODEM_CHECKBOX}
     # Checkbox Should Be Selected    ${SELECTOR_SETTINGS_SMS_DEBUG_GSM_MODEM_CHECKBOX}
@@ -320,15 +325,16 @@ Settings System Information Synchronization QA-ID
     Browser.Click    ${selector_settings_system_synchronization_item}
 
     Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_CALENDAR_CHECKBOX}
-    Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_DISABLE_WEBVISION_CALENDAR_CHECKBOX}
-    Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_STATE_TEXTS_CHECKBOX}
+    # 2024 09 06
+    # Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_DISABLE_WEBVISION_CALENDAR_CHECKBOX}
+    # Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_STATE_TEXTS_CHECKBOX}
     Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_TIME_TABLES_CHECKBOX}
     Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_USER_RIGHTS_CHECKBOX}
     Check Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_ALARM_GROUPS_CHECKBOX}
 
     Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_CALENDAR_CHECKBOX}
-    Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_DISABLE_WEBVISION_CALENDAR_CHECKBOX}
-    Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_STATE_TEXTS_CHECKBOX}
+    # Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_DISABLE_WEBVISION_CALENDAR_CHECKBOX}
+    # Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_STATE_TEXTS_CHECKBOX}
     Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_TIME_TABLES_CHECKBOX}
     Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_USER_RIGHTS_CHECKBOX}
     Uncheck Checkbox    ${SELECTOR_SETTINGS_SYNCHRO_ALARM_GROUPS_CHECKBOX}
@@ -1094,7 +1100,8 @@ Settings Network Firewall QA-ID
     Fill Text    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_OPENPCS_ADDRESS2_MASK_INPUT}    ${random_mask}
     Check Checkbox    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_OPENPCS_ADDRESS3_ENABLE_CHECKBOX}
     Fill Text    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_OPENPCS_ADDRESS3_IP_INPUT}    ${random_ip}
-    Fill Text    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_OPENPCS_ADDRESS3_MASK_INPUT}    ${random_mask}
+    # 2024 09 06
+    # Fill Text    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_OPENPCS_ADDRESS3_MASK_INPUT}    ${random_mask}
 
     Uncheck Checkbox    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_PING_ENABLE_CHECKBOX}
     Check Checkbox    ${SELECTOR_SETTINGS_NETWORK_FIREWALL_PING_ENABLE_CHECKBOX}

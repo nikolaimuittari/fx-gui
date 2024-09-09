@@ -18,7 +18,7 @@ Suite setup
     New Browser
     ...    browser=chromium
     ...    headless=false
-    ...    slowMo=300ms
+    ...    slowMo=200ms
     New Context    
     ...    viewport={'width': 1920, 'height': 1000}    
     ...    screen={'width': 1600, 'height': 900}
